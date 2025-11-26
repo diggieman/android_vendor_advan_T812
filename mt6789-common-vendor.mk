@@ -6,6 +6,25 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/advan/mt6789-common
 
 PRODUCT_COPY_FILES += \
+    vendor/advan/mt6789-common/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
+    vendor/advan/mt6789-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libimsma_socketwrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_socketwrapper.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_service.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtk_vt_wrapper.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmtkperf_client.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsignal.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsink.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libsource.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsource.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_cap.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvcodec_capenc.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libvt_avsync.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
+    vendor/advan/mt6789-common/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/advan/mt6789-common/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
     vendor/advan/mt6789-common/proprietary/vendor/bin/audiocmdservice_atci:$(TARGET_COPY_OUT_VENDOR)/bin/audiocmdservice_atci \
     vendor/advan/mt6789-common/proprietary/vendor/bin/bip:$(TARGET_COPY_OUT_VENDOR)/bin/bip \
@@ -283,19 +302,14 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/advan/mt6789-common/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/advan/mt6789-common/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/advan/mt6789-common/proprietary/vendor/etc/media_codecs_mediatek_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_mediatek_audio.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
     vendor/advan/mt6789-common/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
-    vendor/advan/mt6789-common/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/advan/mt6789-common/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/advan/mt6789-common/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/advan/mt6789-common/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     vendor/advan/mt6789-common/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
-    vendor/advan/mt6789-common/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/advan/mt6789-common/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    vendor/advan/mt6789-common/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/advan/mt6789-common/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
     vendor/advan/mt6789-common/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/advan/mt6789-common/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -458,41 +472,10 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/virtual-spn-conf-by-efspn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efspn.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/virtual-spn-conf-by-imsi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-imsi.xml \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/AVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/AVCSecureVdecCA_510.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/HEVCSecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/HEVCSecureVdecCA_510.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/VP9SecureVdecCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/VP9SecureVdecCA_510.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_meow.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_data.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/egl/libMEOW_qt.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_qt.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/egl/libMEOW_trace.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libMEOW_trace.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/egl/mt6789/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/mt6789/libGLES_mali.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/mt6789/android.hardware.graphics.allocator@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/android.hardware.graphics.allocator@4.0-impl-mediatek.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/android.hardware.graphics.mapper@4.0-impl-mediatek.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/mt6789/gralloc.common.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/gralloc.common.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vendor.mediatek.hardware.pq@2.15-impl.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/mt6789/vulkan.mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/mt6789/vulkan.mali.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.mms@1.6-impl.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAVCSecureVencCA_510.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxCore.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libMtkOmxGsmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxGsmDec.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libMtkOmxMp3Dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxMp3Dec.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib/libged.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpu_aux.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpud.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libgralloc_extra.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_extra.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libgralloc_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc_metadata.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libgralloctypes_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloctypes_mtk.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libgz_gp_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_gp_client.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libgz_uree.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgz_uree.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libh264dec_customize.so:$(TARGET_COPY_OUT_VENDOR)/lib/libh264dec_customize.so \
@@ -504,30 +487,14 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkperf_client_vendor.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkrillog.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_cic_ci_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_cic_ci_compiler.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_clc_cl_compiler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_clc_cl_compiler.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_clc_mvpu_debuginfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_clc_mvpu_debuginfo.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_clc_mvpu_elf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_clc_mvpu_elf.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_clc_mvpu_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_clc_mvpu_utility.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_clc_vpu_isa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_clc_vpu_isa.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_config.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_config.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_engine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_engine.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_engine_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_engine_pub.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_pattern.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_pattern.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_pattern_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_pattern_pub.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_runtime.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpu_runtime_pub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpu_runtime_pub.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpuop_mtk_cv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpuop_mtk_cv.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libmvpuop_mtk_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmvpuop_mtk_nn.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_oal.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libvcodec_utility_plat.mt6789.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility_plat.mt6789.so \
@@ -538,49 +505,13 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwo.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/arm.graphics-V1-ndk_platform.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libaalservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libaalservice.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libaiselector.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libdpframework.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libgpudataproducer.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libmtk_drvb.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libnir_neon_driver.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpq_cust_base.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpq_prot.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libpqparamparser.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodec_utility.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libvcodec_utility_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodec_utility_v3a.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libvcodecdrv_v3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvcodecdrv_v3a.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/mt6789/libvpudv3a_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6789/libvpudv3a_vcodec.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.0.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mmagent@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mmagent@1.1.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.0.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.1.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.2.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.3.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.4.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.5.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.1.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.10.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.10.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.11.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.11.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.12.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.12.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.13.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.13.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.14.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.14.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.15.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.15.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.2.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.3.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.4.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.5.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.6.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.7.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.7.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.8.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.8.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.9.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.rcs@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.rcs@2.0.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
@@ -619,7 +550,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lbs_hidl_service-impl.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libAVCSecureVencCA_510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAVCSecureVencCA_510.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
@@ -629,6 +559,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_mtk.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib64/libalsautils-v31.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils-v31.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libapusys.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapusys.so \
@@ -711,6 +642,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtkmipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkmipc-ril.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtknetcap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetcap.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtknetutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtknetutils.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtkperf_client_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkperf_client_vendor.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkproperty.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtkrillog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrillog.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libmtkrilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkrilutils.so \
@@ -753,7 +685,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
-    vendor/advan/mt6789-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libstorage_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorage_otp.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysenv.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtflite_mtk.so \
@@ -774,6 +705,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
@@ -798,6 +730,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
+    vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@7.1.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so \
@@ -844,14 +777,23 @@ PRODUCT_COPY_FILES += \
     vendor/advan/mt6789-common/proprietary/vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
 
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.usb@1.2-service-mediatekv2 \
-    gnss-mtk \
-    gnss@2.1-service \
-    lbs_hidl_service@1.0 \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_apuware_apusys \
-    manifest_apuware_hmp \
-    manifest_apuware_utils \
-    manifest_hwcomposer \
-    manifest_media_c2_V1_2_default
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-ims-extension-plugin \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
+    android.hardware.neuralnetworks-shim-service-mtk.xml \
+    android.hardware.usb@1.2-service-mediatekv2.xml \
+    gnss-mtk.xml \
+    gnss@2.1-service.xml \
+    lbs_hidl_service@1.0.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_apuware_apusys.xml \
+    manifest_apuware_hmp.xml \
+    manifest_apuware_utils.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_2_default.xml
