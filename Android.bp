@@ -224,6 +224,45 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libhevce_sb.ca7.android",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libhevce_sb.ca7.android.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libvcodec_oal",
+                "libc",
+                "libm",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libhevce_sb.ca7.android.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "liblog",
+                "libvcodec_oal",
+                "libc++",
+                "libdl",
+                "libc",
+                "libm",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libion_mtk",
     owner: "advan",
     strip: {
@@ -1011,31 +1050,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "32",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhevce_sb.ca7.android",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhevce_sb.ca7.android.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libvcodec_oal",
-                "libc",
-                "libm",
-            ],
-        },
-    },
-    compile_multilib: "32",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
