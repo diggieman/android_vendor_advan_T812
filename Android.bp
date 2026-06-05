@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "device/advan/mt6789-common",
         "hardware/mediatek",
+        "hardware/mediatek/libmtkperf_client",
     ],
 }
 
@@ -1957,7 +1958,9 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/audio.primary.mediatek.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "libhidlbase",
+                "libaedv",
                 "vendor.mediatek.hardware.mtkpower@1.0",
                 "liblog",
                 "libcutils",
@@ -1967,7 +1970,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libaudioutils",
                 "libtinyalsa",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libaudiotoolkit_vendor",
                 "libmedia_helper",
                 "libladder",
@@ -2280,7 +2283,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libpq_prot",
                 "libhidlmemory",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "vendor.mediatek.hardware.pq@2.0",
                 "vendor.mediatek.hardware.pq@2.1",
                 "vendor.mediatek.hardware.pq@2.2",
@@ -10167,44 +10170,6 @@ cc_prebuilt_binary {
                 "libutils",
                 "libhardware",
                 "vendor.mediatek.hardware.mms@1.6",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vendor.mediatek.hardware.mtkpower@1.0-service",
-    owner: "advan",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vendor.mediatek.hardware.mtkpower@1.0-service",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "vendor.mediatek.hardware.mtkpower@1.0",
-                "vendor.mediatek.hardware.mtkpower@1.1",
-                "vendor.mediatek.hardware.mtkpower@1.2",
-                "android.hardware.power-service-mediatek",
-                "libbase",
-                "libbinder_ndk",
-                "android.hardware.power-V2-ndk",
-                "libpower_timer",
                 "libc++",
                 "libc",
                 "libm",
