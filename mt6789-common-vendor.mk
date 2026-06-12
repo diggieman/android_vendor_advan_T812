@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/advan/mt6789-common
 
 PRODUCT_COPY_FILES += \
-    vendor/advan/mt6789-common/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/advan/mt6789-common/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/advan/mt6789-common/proprietary/vendor/etc/apdb/APDB_MT6789___W2445:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2445 \
@@ -689,30 +688,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.7 \
     vendor.mediatek.hardware.pq@2.8 \
     vendor.mediatek.hardware.pq@2.9 \
-    vendor.mediatek.hardware.videotelephony@1.0 \
-    libcomutils \
-    libimsma \
-    libimsma_adapt \
-    libimsma_rtp \
-    libimsma_socketwrapper \
-    libmtk_vt_service \
-    libmtk_vt_wrapper \
-    libsignal \
-    libsink-mtk \
-    libsource \
-    libvcodec_cap \
-    libvcodec_capenc \
-    libvt_avsync \
-    vendor.mediatek.hardware.videotelephony-V1-ndk \
-    ImsService \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     gnss-mtk.xml \
@@ -770,8 +745,7 @@ PRODUCT_PACKAGES += \
     wfca \
     wlan_assistant \
     wmt_launcher \
-    wmt_loader \
-    vtservice
+    wmt_loader
 
 PRODUCT_PACKAGES += \
     vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
