@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
@@ -229,17 +228,13 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/advan/T812/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
     vendor/advan/T812/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/advan/T812/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/advan/T812/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     vendor/advan/T812/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     vendor/advan/T812/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/advan/T812/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
-    vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
-    vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
     vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/mediaextractor.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy \
-    vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/mediaswcodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaswcodec.policy \
     vendor/advan/T812/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
     vendor/advan/T812/proprietary/vendor/etc/security/cacerts/04f60c28.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/04f60c28.0 \
     vendor/advan/T812/proprietary/vendor/etc/security/cacerts/0d69c7e1.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/0d69c7e1.0 \
@@ -529,11 +524,6 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libcomposer_ext \
@@ -714,7 +704,6 @@ PRODUCT_PACKAGES += \
     gsm0710muxd \
     android.hardware.drm@1.4-service.widevine \
     android.hardware.gnss-service.mediatek \
-    android.hardware.media.c2@1.2-mediatek-64b \
     android.hardware.neuralnetworks-shim-service-mtk \
     android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.thermal@2.0-service.mtk \
@@ -882,7 +871,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustkernel.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustkernel.rc \
-    vendor/advan/T812/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     vendor/advan/T812/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
     vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_SINWAVE_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_SINWAVE_DSP.bin \
