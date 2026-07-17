@@ -230,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
     vendor/advan/T812/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
-    vendor/advan/T812/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
     vendor/advan/T812/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/advan/T812/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/advan/T812/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
@@ -409,6 +408,16 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
 
 PRODUCT_PACKAGES += \
+    libGLES_mali \
+    vulkan.mali \
+    vendor_lib64_hw_vulkan_mali_so \
+    arm.graphics-V1-ndk_platform \
+    vendor_lib64_arm_graphics-V1-ndk_platform_so \
+    arm.graphics-V3-ndk \
+    vendor_lib64_arm_graphics-V3-ndk_so \
+    libarm_egl_properties_sysprop \
+    libarm_gralloc_properties_sysprop \
+    liblibarm_mali_config_sysprops \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
     libaedv \
     libbwc \
@@ -456,10 +465,6 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA_510 \
     HEVCSecureVdecCA_510 \
     VP9SecureVdecCA_510 \
-    libGLES_meow \
-    libMEOW_data \
-    libMEOW_qt \
-    libMEOW_trace \
     libGLES_mali \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
@@ -789,6 +794,12 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/advan/T812
 
 PRODUCT_COPY_FILES += \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     vendor/advan/T812/proprietary/recovery/root/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware.bin \
     vendor/advan/T812/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw.bin \
     vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6781v01.bin \

@@ -1653,120 +1653,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libGLES_meow",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/egl/libGLES_meow.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libnativewindow",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "egl",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libMEOW_data",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/egl/libMEOW_data.so",
-            ],
-            shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "egl",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libMEOW_qt",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/egl/libMEOW_qt.so",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libnativewindow",
-                "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "egl",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libMEOW_trace",
-    owner: "advan",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/egl/libMEOW_trace.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libnativewindow",
-                "libGLES_meow",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "egl",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libGLES_mali",
     owner: "advan",
     strip: {
@@ -61511,3 +61397,115 @@ install_symlink {
     installed_location: "lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so",
     symlink_target: "/vendor/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so",
 }
+cc_prebuilt_library_shared {
+    name: "arm.graphics-V3-ndk",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/mt6789/arm.graphics-V3-ndk.so",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "mt6789",
+    prefer: true,
+    soc_specific: true,
+}
+
+
+install_symlink {
+    name: "vendor_lib64_arm_graphics-V3-ndk_so",
+    soc_specific: true,
+    installed_location: "lib64/arm.graphics-V3-ndk.so",
+    symlink_target: "/vendor/lib64/mt6789/arm.graphics-V3-ndk.so",
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libarm_egl_properties_sysprop",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarm_egl_properties_sysprop.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "libarm_gralloc_properties_sysprop",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libarm_gralloc_properties_sysprop.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+
+cc_prebuilt_library_shared {
+    name: "liblibarm_mali_config_sysprops",
+    owner: "advan",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/liblibarm_mali_config_sysprops.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
