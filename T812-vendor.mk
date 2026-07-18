@@ -6,11 +6,88 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/advan/T812
 
 PRODUCT_COPY_FILES += \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6781v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6785v96.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6785v99.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6853v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6873v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6877v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6877v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v1.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v9c.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6893v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6785.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6785.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6877.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6885.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_gt9885v1.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6781v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6785a4.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6785ae.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6853v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6873v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6877af.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6877af.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6877v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6877v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885a1.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885af.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885b0.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885b1.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6893v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6789v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6833v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6853v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6855v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6873v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6879v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v02.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v03.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v04.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v05.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6895v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6983v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6789v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6833v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6853v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6855v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6873v00.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6879v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v02.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v03.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v04.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v05.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6895v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6983v01.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_144.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_144.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_jdi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_jdi.bin \
+    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_tm.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_tm.bin \
+    vendor/advan/T812/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
+    vendor/advan/T812/proprietary/vendor/app/t6/08030000-0000-0000-0000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/08030000-0000-0000-0000000000000000.ta \
+    vendor/advan/T812/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
+    vendor/advan/T812/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
+    vendor/advan/T812/proprietary/vendor/app/t6/cfg.ini:$(TARGET_COPY_OUT_VENDOR)/app/t6/cfg.ini \
+    vendor/advan/T812/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074 \
+    vendor/advan/T812/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/77766B625F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/77766B625F6372797074 \
+    vendor/advan/T812/proprietary/vendor/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta \
+    vendor/advan/T812/proprietary/vendor/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta \
     vendor/advan/T812/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/advan/T812/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/advan/T812/proprietary/vendor/etc/apdb/APDB_MT6789___W2445:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2445 \
     vendor/advan/T812/proprietary/vendor/etc/apdb/APDB_MT6789___W2445_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6789___W2445_ENUM \
     vendor/advan/T812/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
+    vendor/advan/T812/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
     vendor/advan/T812/proprietary/vendor/etc/audio_em.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_em.xml \
     vendor/advan/T812/proprietary/vendor/etc/audio_param/AudioParamOptions_mgvi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_mgvi.xml \
     vendor/advan/T812/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
@@ -125,6 +202,8 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/advan/T812/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/advan/T812/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
+    vendor/advan/T812/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
+    vendor/advan/T812/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -135,7 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list_OP20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP20.xml \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/advan/T812/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
-    vendor/advan/T812/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/advan/T812/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/advan/T812/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
     vendor/advan/T812/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_US.xml \
@@ -149,15 +227,20 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/advan/T812/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/advan/T812/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
+    vendor/advan/T812/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
+    vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustkernel.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-mediatekv2.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
+    vendor/advan/T812/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
@@ -178,7 +261,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/init.gps_pwr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_pwr.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/init.thermal_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_core.rc \
@@ -200,6 +282,7 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/init/netdagent.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netdagent.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
+    vendor/advan/T812/proprietary/vendor/etc/init/trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustkernel.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/v3avpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/v3avpud.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
@@ -229,12 +312,12 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
+    vendor/advan/T812/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     vendor/advan/T812/proprietary/vendor/etc/media_codecs_c2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_c2.xml \
-    vendor/advan/T812/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
+    vendor/advan/T812/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
+    vendor/advan/T812/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     vendor/advan/T812/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     vendor/advan/T812/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
-    vendor/advan/T812/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
-    vendor/advan/T812/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     vendor/advan/T812/proprietary/vendor/etc/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt \
     vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     vendor/advan/T812/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
@@ -385,6 +468,8 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/advan/T812/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
     vendor/advan/T812/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
+    vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
+    vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_SINWAVE_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_SINWAVE_DSP.bin \
     vendor/advan/T812/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/advan/T812/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     vendor/advan/T812/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
@@ -405,487 +490,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/advan/T812/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/advan/T812/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/advan/T812/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
-
-PRODUCT_PACKAGES += \
-    libGLES_mali \
-    vulkan.mali \
-    vendor_lib64_hw_vulkan_mali_so \
-    arm.graphics-V1-ndk_platform \
-    vendor_lib64_arm_graphics-V1-ndk_platform_so \
-    arm.graphics-V3-ndk \
-    vendor_lib64_arm_graphics-V3-ndk_so \
-    libarm_egl_properties_sysprop \
-    libarm_gralloc_properties_sysprop \
-    liblibarm_mali_config_sysprops \
-    vendor.mediatek.hardware.videotelephony@1.0-impl \
-    libaedv \
-    libbwc \
-    libgz_gp_client \
-    libgz_uree \
-    libhevce_sb.ca7.android \
-    libion_mtk \
-    libion_ulit \
-    libipsec_ims_shr \
-    libladder \
-    libmp3dec_mtk \
-    libmtkcutils \
-    libmtkperf_client_vendor \
-    libmtkproperty \
-    libmtkrillog \
-    libpowerhalwrap_vendor \
-    libthha \
-    libvcodec_oal \
-    libvcodecdrv_header_stub \
-    libverno \
-    libwo \
-    libmtk_drvb \
-    vendor.mediatek.hardware.videotelephony@1.0_vendor \
-    libh264dec_customize \
-    libh264dec_sa.ca7 \
-    libh264dec_sd.ca7 \
-    libh264dec_se.ca7 \
-    libmp4enc_sa.ca7 \
-    librcs_volte_core \
-    libvcodec_utility_plat.mt6789 \
-    libvolte_core_shr \
-    libvolte_xdmc_shr \
-    libvp8dec_sa.ca7 \
-    libvp8enc_sa.ca7 \
-    libvp9dec_sa.ca7 \
-    libvcodec_utility \
-    libvcodec_utility_v3a \
-    libvcodecdrv \
-    libvcodecdrv_v3a \
-    libvpudv3a_vcodec \
-    vendor.mediatek.hardware.rcs@2.0 \
-    APUWareApusysServer \
-    APUWareHmpServer \
-    APUWareUtilsServer \
-    AVCSecureVdecCA_510 \
-    HEVCSecureVdecCA_510 \
-    VP9SecureVdecCA_510 \
-    libGLES_mali \
-    android.hardware.gnss-impl-mediatek \
-    android.hardware.gnss@2.1-impl-mediatek \
-    android.hardware.thermal@2.0-impl \
-    audio.primary.mediatek \
-    audio.r_submix.mediatek \
-    gps.default \
-    hwcomposer.mtk_common \
-    android.hardware.graphics.allocator@4.0-impl-mediatek \
-    android.hardware.graphics.mapper@4.0-impl-mediatek \
-    gralloc.common \
-    vendor.mediatek.hardware.pq@2.15-impl \
-    vulkan.mali \
-    sensors.mediatek.V2.0 \
-    sound_trigger.primary.default \
-    thermal_hal \
-    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
-    vendor.mediatek.hardware.mms@1.6-impl \
-    vendor.mediatek.hardware.mtkpower@1.2-impl \
-    vendor.mediatek.hardware.nvram@1.1-impl \
-    lbs_hidl_service-impl \
-    libAVCSecureVencCA_510 \
-    libMtkSpeechEnh \
-    libOpenCL \
-    libTEECommon \
-    lib_iir \
-    lib_speech_enh \
-    libaal_key \
-    libaal_mtk \
-    libadpcmdec_mtk \
-    libalsautils-v31 \
-    libapu_mdw \
-    libapu_mdw_batch \
-    libapusys \
-    libapusys_edma \
-    libarmnn \
-    libarmnn_ndk.mtk.vndk \
-    libaudio_param_parser-vnd \
-    libaudiocompensationfilter_vendor \
-    libaudiocompensationfilterc \
-    libaudiocomponentengine_vendor \
-    libaudiocomponentenginec \
-    libaudiocustparam_vendor \
-    libaudiodcrflt_vendor \
-    libaudiofmtconv \
-    libaudioloudc \
-    libaudioprimarydevicehalifclient \
-    libaudiotoolkit_vendor \
-    libaurisysdemo \
-    libbessound_hd_mtk_vendor \
-    libblisrc32_vendor \
-    libbluetooth_audio_session_mediatek \
-    libbluetooth_mtk \
-    libbluetooth_mtk_pure \
-    libbt-vendor \
-    libcares_naptr \
-    libcarrierconfig \
-    libccci_util \
-    libcmdl \
-    libcmdl_ndk.mtk.vndk \
-    libcodec2_mtk_c2store \
-    libcodec2_mtk_vdec \
-    libcodec2_mtk_venc \
-    libcodec2_soft_mtk_alacdec \
-    libcodec2_soft_mtk_apedec \
-    libcodec2_soft_mtk_imaadpcmdec \
-    libcodec2_soft_mtk_mp3dec \
-    libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vpp_qt_plugin \
-    libcodec2_vpp_rs_plugin \
-    libcomposer_ext \
-    libconnfem \
-    libcustom_nvram \
-    libcvsd_mtk \
-    libfgauge_gm30 \
-    libfile_op \
-    libforkexecwrap \
-    libformatter_mtk \
-    libged \
-    libgpu_aux \
-    libgpud \
-    libgralloc_extra \
-    libgralloc_metadata \
-    libgralloctypes_mtk \
-    libgwsd-ril \
-    libhfmanager \
-    libhwm \
-    libifcutils_mtk \
-    libksensor \
-    libmipc \
-    libmmagent \
-    libmml \
-    libmnetlink_v104 \
-    libmsbc_mtk \
-    libmtk-fusion-ril-prop-vsim \
-    libmtk-ril \
-    libmtkares \
-    libmtkconfig \
-    libmtkconfigutils \
-    libmtkhardware_legacy \
-    libmtklimiter_vendor \
-    libmtkmipc-ril \
-    libmtknetcap \
-    libmtknetutils \
-    libmtkrilutils \
-    libmtkshifter_vendor \
-    libmtksysutils \
-    libmtktinyxml \
-    libmtkutils \
-    libmvpu_cic_ci_compiler \
-    libmvpu_clc_cl_compiler \
-    libmvpu_clc_mvpu_debuginfo \
-    libmvpu_clc_mvpu_elf \
-    libmvpu_clc_mvpu_utility \
-    libmvpu_clc_vpu_isa \
-    libmvpu_config \
-    libmvpu_engine \
-    libmvpu_engine_pub \
-    libmvpu_pattern \
-    libmvpu_pattern_pub \
-    libmvpu_runtime \
-    libmvpu_runtime_pub \
-    libmvpuop_mtk_cv \
-    libmvpuop_mtk_nn \
-    libneuron_graph_delegate.mtk \
-    libneuron_platform \
-    libnir_neon_driver_ndk.mtk.vndk \
-    libnpagent \
-    libnpagent_server \
-    libnvram \
-    libnvram_sec \
-    libnxp_extamp_intf \
-    liboemcrypto \
-    libperfctl_vendor \
-    libpower_timer \
-    libpowerhal \
-    libpqframework \
-    libratconfig \
-    librilfusion \
-    librpc \
-    librt_extamp_intf \
-    libspeech_enh_lib \
-    libspeechparser_vendor \
-    libstorage_otp \
-    libsysenv \
-    libtflite_mtk \
-    libtlcWidevineModularDrm \
-    libtrm \
-    libvia-ril \
-    libviagpsrpc \
-    libviamipc-ril \
-    libvow_ap_test_aa \
-    libvow_ap_test_dd \
-    libvow_ap_test_ha \
-    libvow_ap_test_hh \
-    libvow_ap_test_nn \
-    libvpu \
-    libvpu5 \
-    libwapi  \
-    libwifitest \
-    libwpfa \
-    libwvhidl \
-    libwvdrmengine \
-    arm.graphics-V1-ndk_platform \
-    libDR \
-    libaal_cust_func \
-    libaalservice \
-    libaiselector \
-    libdpframework \
-    libgpudataproducer \
-    libmnl_mtk \
-    libneuralnetworks_sl_driver_mtk_prebuilt \
-    libneuron_adapter_mgvi \
-    libneuron_runtime.5 \
-    libnir_neon_driver \
-    libpq_cust_base \
-    libpq_prot \
-    libpqparamparser \
-    vendor.mediatek.hardware.apuware.apusys@2.0 \
-    vendor.mediatek.hardware.apuware.apusys@2.1 \
-    vendor.mediatek.hardware.apuware.hmp@1.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
-    vendor.mediatek.hardware.audio@6.1 \
-    vendor.mediatek.hardware.audio@7.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.1 \
-    vendor.mediatek.hardware.bluetooth.audio@2.2 \
-    vendor.mediatek.hardware.clientapi@1.0 \
-    vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.keymaster_attestation@1.0 \
-    vendor.mediatek.hardware.keymaster_attestation@1.1 \
-    vendor.mediatek.hardware.lbs@1.0 \
-    vendor.mediatek.hardware.mmagent@1.0 \
-    vendor.mediatek.hardware.mmagent@1.1 \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
-    vendor.mediatek.hardware.mms@1.4 \
-    vendor.mediatek.hardware.mms@1.5 \
-    vendor.mediatek.hardware.mms@1.6 \
-    vendor.mediatek.hardware.mtkradioex@2.0 \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
-    vendor.mediatek.hardware.netdagent@1.0 \
-    vendor.mediatek.hardware.neuropilot.agent@1.0 \
-    vendor.mediatek.hardware.neuropilot.agent@1.1 \
-    vendor.mediatek.hardware.neuropilot.agent@1.2 \
-    vendor.mediatek.hardware.nvram@1.0 \
-    vendor.mediatek.hardware.nvram@1.1 \
-    vendor.mediatek.hardware.power@1.1 \
-    vendor.mediatek.hardware.power@2.0 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.10 \
-    vendor.mediatek.hardware.pq@2.11 \
-    vendor.mediatek.hardware.pq@2.12 \
-    vendor.mediatek.hardware.pq@2.13 \
-    vendor.mediatek.hardware.pq@2.14 \
-    vendor.mediatek.hardware.pq@2.15 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
-    vendor.mediatek.hardware.pq@2.4 \
-    vendor.mediatek.hardware.pq@2.5 \
-    vendor.mediatek.hardware.pq@2.6 \
-    vendor.mediatek.hardware.pq@2.7 \
-    vendor.mediatek.hardware.pq@2.8 \
-    vendor.mediatek.hardware.pq@2.9 \
-    android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.usb@1.2-service-mediatekv2.xml \
-    gnss-mtk.xml \
-    gnss@2.1-service.xml \
-    lbs_hidl_service@1.0.xml \
-    manifest_android.hardware.drm@1.4-service.widevine.xml \
-    manifest_apuware_apusys.xml \
-    manifest_apuware_hmp.xml \
-    manifest_apuware_utils.xml \
-    manifest_hwcomposer.xml \
-    manifest_media_c2_V1_2_default.xml \
-    bip \
-    bip_ap \
-    ccci_mdinit \
-    ccci_rpcd \
-    chipinfo \
-    epdg_wod \
-    fuelgauged \
-    fuelgauged_nvram \
-    gsm0710muxd \
-    android.hardware.drm@1.4-service.widevine \
-    android.hardware.gnss-service.mediatek \
-    android.hardware.media.c2@1.2-mediatek-64b \
-    android.hardware.neuralnetworks-shim-service-mtk \
-    android.hardware.secure_element@1.2-service-mediatek \
-    android.hardware.thermal@2.0-service.mtk \
-    android.hardware.usb@1.2-service-mediatekv2 \
-    android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
-    mtkfusionrild \
-    tetheroffloadservice \
-    vendor.mediatek.hardware.keymaster_attestation@1.1-service \
-    vendor.mediatek.hardware.mmagent@1.1-service \
-    vendor.mediatek.hardware.mms@1.6-service \
-    vendor.mediatek.hardware.nvram@1.1-service \
-    vendor.mediatek.hardware.pq@2.2-service \
-    vtservice_hidl \
-    init.insmod \
-    ipsec_mon \
-    lbs_hidl_service \
-    mnld \
-    v3avpud.mt6789 \
-    mtk_agpsd \
-    netdagent \
-    nvram_daemon \
-    rcs_volte_stack \
-    thermal_core \
-    volte_clientapi_ua \
-    volte_imcb \
-    volte_imsm_93 \
-    volte_md_status \
-    volte_rcs_ua \
-    volte_stack \
-    volte_ua \
-    wfca \
-    wlan_assistant \
-    wmt_launcher \
-    wmt_loader
-
-PRODUCT_PACKAGES += \
-    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
-    vendor_bin_v3avpud \
-    vendor_lib_libmtk_drvb_so \
-    vendor_lib_libvcodec_utility_so \
-    vendor_lib_libvcodec_utility_v3a_so \
-    vendor_lib_libvcodecdrv_so \
-    vendor_lib_libvcodecdrv_v3a_so \
-    vendor_lib_libvpudv3a_vcodec_so \
-    vendor_lib64_egl_libGLES_mali_so \
-    vendor_lib64_hw_audio_primary_mt6789_so \
-    vendor_lib64_hw_audio_r_submix_mt6789_so \
-    vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
-    vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
-    vendor_lib64_hw_gralloc_common_so \
-    vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so \
-    vendor_lib64_hw_vulkan_mali_so \
-    vendor_lib64_hw_sensors_mt6789_so \
-    vendor_lib64_arm_graphics-V1-ndk_platform_so \
-    vendor_lib64_libDR_so \
-    vendor_lib64_libaal_cust_func_so \
-    vendor_lib64_libaalservice_so \
-    vendor_lib64_libaiselector_so \
-    vendor_lib64_libdpframework_so \
-    vendor_lib64_libgpudataproducer_so \
-    vendor_lib64_libmnl_mtk_so \
-    vendor_lib64_libmtk_drvb_so \
-    vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
-    vendor_lib64_libneuron_adapter_mgvi_so \
-    vendor_lib64_libneuron_runtime_5_so \
-    vendor_lib64_libnir_neon_driver_so \
-    vendor_lib64_libpq_cust_base_so \
-    vendor_lib64_libpq_prot_so \
-    vendor_lib64_libpqparamparser_so
-
-# T812 specific vendor proprietary packages and files
-#
-# Automatically generated file. DO NOT MODIFY
-#
-
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/advan/T812
-
-PRODUCT_COPY_FILES += \
-    vendor/advan/T812/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
-    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
-    vendor/advan/T812/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
-    vendor/advan/T812/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
-    vendor/advan/T812/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
-    vendor/advan/T812/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/Himax_firmware.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6781v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6781v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6785v96.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6785v96.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6785v99.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6785v99.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6853v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6873v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6877v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6877v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v1.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6885v9c.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6885v9c.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_6893v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6785.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6785.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6877.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6877.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_90hz6885.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_90hz6885.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_cfg_gt9885v1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_cfg_gt9885v1.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6781v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6781v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6785a4.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6785a4.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6785ae.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6785ae.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6853v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6873v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6877af.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6877af.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6877v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6877v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885a1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885a1.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885af.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885af.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885b0.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885b0.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885b1.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885b1.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6885v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6885v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9886_firmware_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9886_firmware_6893v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2280.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6781v01_1080x2300.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6789v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6789v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6833v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6833v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6853v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6855v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6855v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6873v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6873v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2280.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6877v01_1080x2300.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6879v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6879v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v02.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v02.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v03.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v03.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v04.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v04.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6893v05.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6893v05.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6895v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6895v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_cfg_6983v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_cfg_6983v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2280.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6781v01_1080x2300.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6789v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6789v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6833v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6833v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6853v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6853v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6855v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6855v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6873v00.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6873v00.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2280.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6877v01_1080x2300.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6879v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6879v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v02.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v02.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v03.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v03.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v04.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v04.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6893v05.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6893v05.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6895v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6895v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/gt9896s_firmware_6983v01.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/gt9896s_firmware_6983v01.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_144.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_144.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_jdi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_jdi.bin \
-    vendor/advan/T812/proprietary/recovery/root/vendor/firmware/novatek_ts_fw_tm.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw_tm.bin \
-    vendor/advan/T812/proprietary/vendor/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/02662e8e-e126-11e5-b86d9a79f06e9478.ta \
-    vendor/advan/T812/proprietary/vendor/app/t6/08030000-0000-0000-0000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/08030000-0000-0000-0000000000000000.ta \
-    vendor/advan/T812/proprietary/vendor/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/9ef77781-7bd5-4e39-965f20f6f211f400.ta \
-    vendor/advan/T812/proprietary/vendor/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/b46325e6-5c90-8252-2eada8e32e5180d6.ta \
-    vendor/advan/T812/proprietary/vendor/app/t6/cfg.ini:$(TARGET_COPY_OUT_VENDOR)/app/t6/cfg.ini \
-    vendor/advan/T812/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/6B6579626F785F6372797074 \
-    vendor/advan/T812/proprietary/vendor/app/t6/data/E62563B4905C52822EADA8E32E5180D6/77766B625F6372797074:$(TARGET_COPY_OUT_VENDOR)/app/t6/data/E62563B4905C52822EADA8E32E5180D6/77766B625F6372797074 \
-    vendor/advan/T812/proprietary/vendor/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/e97c270e-a5c4-4c58-bcd3384a2fa2539e.ta \
-    vendor/advan/T812/proprietary/vendor/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta:$(TARGET_COPY_OUT_VENDOR)/app/t6/face1d41-2636-11e1-ad9e0002a5d6c51b.ta \
-    vendor/advan/T812/proprietary/vendor/etc/audio_device.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_device.xml \
-    vendor/advan/T812/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
-    vendor/advan/T812/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
-    vendor/advan/T812/proprietary/vendor/etc/init/android.hardware.security.keymint-service.trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.trustkernel.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/trustkernel.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/trustkernel.rc \
-    vendor/advan/T812/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
-    vendor/advan/T812/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
-    vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_DSP.bin \
-    vendor/advan/T812/proprietary/vendor/etc/smartpa_param/AW_SINWAVE_DSP.bin:$(TARGET_COPY_OUT_VENDOR)/etc/smartpa_param/AW_SINWAVE_DSP.bin \
     vendor/advan/T812/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
     vendor/advan/T812/proprietary/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware.bin \
     vendor/advan/T812/proprietary/vendor/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc2_2_1d_1.bin \
@@ -984,20 +588,87 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/firmware/soc2_2_ram_wifi_1d_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1d_1_hdr.bin \
     vendor/advan/T812/proprietary/vendor/firmware/soc2_2_ram_wifi_1e_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc2_2_ram_wifi_1e_1_hdr.bin \
     vendor/advan/T812/proprietary/vendor/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
-    vendor/advan/T812/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin
+    vendor/advan/T812/proprietary/vendor/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
+    vendor/advan/T812/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg
 
 PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.videotelephony@1.0-impl \
+    libaedv \
+    libbwc \
+    libgz_gp_client \
+    libgz_uree \
+    libhevce_sb.ca7.android \
+    libion_mtk \
+    libion_ulit \
+    libipsec_ims_shr \
+    libladder \
+    libmp3dec_mtk \
+    libmtkcutils \
+    libmtkproperty \
+    libmtkrillog \
+    libthha \
+    libvcodec_oal \
+    libvcodecdrv_header_stub \
+    libverno \
+    libwo \
+    libmtk_drvb \
+    vendor.mediatek.hardware.videotelephony@1.0_vendor \
+    libh264dec_customize \
+    libh264dec_sa.ca7 \
+    libh264dec_sd.ca7 \
+    libh264dec_se.ca7 \
+    libmp4enc_sa.ca7 \
+    libmtkperf_client_vendor \
+    librcs_volte_core \
+    libvcodec_utility_plat.mt6789 \
+    libvolte_core_shr \
+    libvolte_xdmc_shr \
+    libvp8dec_sa.ca7 \
+    libvp8enc_sa.ca7 \
+    libvp9dec_sa.ca7 \
+    libvcodec_utility \
+    libvcodec_utility_v3a \
+    libvcodecdrv \
+    libvcodecdrv_v3a \
+    libvpudv3a_vcodec \
+    vendor.mediatek.hardware.rcs@2.0 \
+    APUWareApusysServer \
+    APUWareHmpServer \
+    APUWareUtilsServer \
+    AVCSecureVdecCA_510 \
+    HEVCSecureVdecCA_510 \
+    VP9SecureVdecCA_510 \
     android.hardware.security.keymint-V3-ndk-mtk \
+    libGLES_mali \
+    android.hardware.gnss-impl-mediatek \
+    android.hardware.gnss@2.1-impl-mediatek \
+    audio.primary.mediatek \
+    audio.r_submix.mediatek \
     gatekeeper.trustkernel \
+    gps.default \
+    hwcomposer.mtk_common \
     kmsetkey.trustkernel \
     libSoftGatekeeper \
     android.hardware.camera.provider@2.6-impl-mediatek \
+    android.hardware.graphics.allocator@4.0-impl-mediatek \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
+    gralloc.common \
     vendor.mediatek.hardware.camera.atms@1.0-impl \
     vendor.mediatek.hardware.camera.bgservice@1.1-impl \
     vendor.mediatek.hardware.camera.ccap@1.0-impl \
     vendor.mediatek.hardware.camera.isphal@1.0-impl \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
+    vendor.mediatek.hardware.pq@2.15-impl \
+    vulkan.mali \
+    sensors.mediatek.V2.0 \
+    sound_trigger.primary.default \
+    vendor.mediatek.hardware.bluetooth.audio@2.2-impl \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-impl \
+    vendor.mediatek.hardware.mms@1.6-impl \
+    vendor.mediatek.hardware.nvram@1.1-impl \
+    lbs_hidl_service-impl \
+    libAVCSecureVencCA_510 \
     libCamera_bf2553lfmipiraw_E2EHDR_Preview \
     libCamera_bf2553lfmipiraw_E2EHDR_Video \
     libCamera_bf2553lfmipiraw_Face_Capture \
@@ -1380,8 +1051,43 @@ PRODUCT_PACKAGES += \
     libCamera_s5k5e2mipiraw_Video_1080 \
     libCamera_s5k5e2mipiraw_Video_4k \
     libJpgEncPipe \
+    libMtkSpeechEnh \
+    libOpenCL \
     libSQLiteModule_VER_ALL \
+    libTEECommon \
+    lib_iir \
+    lib_speech_enh \
+    libaal_key \
+    libaal_mtk \
+    libadpcmdec_mtk \
+    libalsautils-v31 \
+    libapu_mdw \
+    libapu_mdw_batch \
+    libapusys \
+    libapusys_edma \
+    libarm_egl_properties_sysprop \
+    libarm_gralloc_properties_sysprop \
+    libarmnn \
+    libarmnn_ndk.mtk.vndk \
+    libaudio_param_parser-vnd \
+    libaudiocompensationfilter_vendor \
+    libaudiocompensationfilterc \
+    libaudiocomponentengine_vendor \
+    libaudiocomponentenginec \
+    libaudiocustparam_vendor \
+    libaudiodcrflt_vendor \
+    libaudiofmtconv \
+    libaudioloudc \
+    libaudioprimarydevicehalifclient \
+    libaudiotoolkit_vendor \
+    libaurisysdemo \
     libawinic_mtk_aurisys \
+    libbessound_hd_mtk_vendor \
+    libblisrc32_vendor \
+    libbluetooth_audio_session_mediatek \
+    libbluetooth_mtk \
+    libbluetooth_mtk_pure \
+    libbt-vendor \
     libcam.seninfn3d \
     libcamalgo.3dnr \
     libcamalgo.dngop \
@@ -1395,7 +1101,40 @@ PRODUCT_PACKAGES += \
     libcamalgo.platform \
     libcamalgo.utility \
     libcamalgo.warp \
+    libcares_naptr \
+    libcarrierconfig \
+    libccci_util \
+    libcmdl \
+    libcmdl_ndk.mtk.vndk \
+    libcodec2_mtk_c2store \
+    libcodec2_mtk_vdec \
+    libcodec2_mtk_venc \
+    libcodec2_soft_mtk_alacdec \
+    libcodec2_soft_mtk_apedec \
+    libcodec2_soft_mtk_imaadpcmdec \
+    libcodec2_soft_mtk_mp3dec \
+    libcodec2_soft_mtk_msadpcmdec \
+    libcodec2_vpp_qt_plugin \
+    libcodec2_vpp_rs_plugin \
+    libcomposer_ext \
+    libconnfem \
+    libcustom_nvram \
+    libcvsd_mtk \
+    libfgauge_gm30 \
+    libfile_op \
+    libforkexecwrap \
+    libformatter_mtk \
+    libged \
+    libgpu_aux \
+    libgpud \
+    libgralloc_extra \
+    libgralloc_metadata \
+    libgralloctypes_mtk \
+    libgwsd-ril \
     libheichal \
+    libhfmanager \
+    libhwm \
+    libifcutils_mtk \
     libimagebuffer_wrapper \
     libimgsensorca \
     libispcameraca \
@@ -1403,13 +1142,88 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha_vendor \
     libkphhelper \
     libkphproxy \
+    libksensor \
+    liblibarm_mali_config_sysprops \
+    libmipc \
+    libmmagent \
+    libmml \
+    libmnetlink_v104 \
+    libmsbc_mtk \
+    libmtk-fusion-ril-prop-vsim \
+    libmtk-ril \
+    libmtkares \
     libmtkcam_pipelinepolicy-aov \
+    libmtkconfig \
+    libmtkconfigutils \
+    libmtkhardware_legacy \
     libmtkisp_metadata \
+    libmtklimiter_vendor \
+    libmtkmipc-ril \
+    libmtknetcap \
+    libmtknetutils \
+    libmtkrilutils \
+    libmtkshifter_vendor \
+    libmtksysutils \
+    libmtktinyxml \
+    libmtkutils \
+    libmvpu_cic_ci_compiler \
+    libmvpu_clc_cl_compiler \
+    libmvpu_clc_mvpu_debuginfo \
+    libmvpu_clc_mvpu_elf \
+    libmvpu_clc_mvpu_utility \
+    libmvpu_clc_vpu_isa \
+    libmvpu_config \
+    libmvpu_engine \
+    libmvpu_engine_pub \
+    libmvpu_pattern \
+    libmvpu_pattern_pub \
+    libmvpu_runtime \
+    libmvpu_runtime_pub \
+    libmvpuop_mtk_cv \
+    libmvpuop_mtk_nn \
+    libneuron_graph_delegate.mtk \
+    libneuron_platform \
+    libnir_neon_driver_ndk.mtk.vndk \
+    libnpagent \
+    libnpagent_server \
+    libnvram \
+    libnvram_sec \
+    libnxp_extamp_intf \
+    liboemcrypto \
     libpl \
+    libpqframework \
+    libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
+    librilfusion \
+    librpc \
+    librt_extamp_intf \
+    libspeech_enh_lib \
+    libspeechparser_vendor \
+    libstorage_otp \
+    libsysenv \
     libteec \
+    libtflite_mtk \
+    libtlcWidevineModularDrm \
+    libtrm \
     libudf \
+    libvia-ril \
+    libviagpsrpc \
+    libviamipc-ril \
+    libvow_ap_test_aa \
+    libvow_ap_test_dd \
+    libvow_ap_test_ha \
+    libvow_ap_test_hh \
+    libvow_ap_test_nn \
+    libvpu \
+    libvpu5 \
+    libwapi \
+    libwifitest \
+    libwpfa \
+    libwvhidl \
+    libwvdrmengine \
+    arm.graphics-V1-ndk_platform \
+    arm.graphics-V3-ndk \
     bf2553l_mipi_raw_IdxMgr \
     bf2553l_mipi_raw_tuning \
     bf2553lf_mipi_raw_IdxMgr \
@@ -2346,6 +2160,7 @@ PRODUCT_PACKAGES += \
     libCamera_sp2509mipiraw_Scene_Preview_ZSD_Flash \
     libCamera_sp2509mipiraw_Video_1080 \
     libCamera_sp2509mipiraw_Video_4k \
+    libDR \
     libSonyIMX230PdafLibrary \
     libSonyIMX230PdafLibraryWrapper \
     libSonyIMX338PdafLibrary \
@@ -2356,6 +2171,8 @@ PRODUCT_PACKAGES += \
     libSonyIMX519PdafLibraryWrapper \
     libaaa_ltm \
     libaaa_ltmx \
+    libaal_cust_func \
+    libaalservice \
     libaiawb_moon \
     libaiawb_p1ggm \
     libaiawb_sun \
@@ -2364,6 +2181,7 @@ PRODUCT_PACKAGES += \
     libaibc_tuning_p3 \
     libaibc_tuning_p4 \
     libaidepth_tuning \
+    libaiselector \
     libcam.afhal \
     libcam.chdr \
     libcam.feature_utils \
@@ -2415,6 +2233,7 @@ PRODUCT_PACKAGES += \
     libcameracustom \
     libdip_drv \
     libdip_postproc \
+    libdpframework \
     libeffecthal.base \
     libfeature.face \
     libfeature.stereo.provider \
@@ -2425,10 +2244,12 @@ PRODUCT_PACKAGES += \
     libfeature_lmv \
     libfeature_rss \
     libfeatureiodrv_mem \
+    libgpudataproducer \
     libimageio \
     libimageio_plat_drv \
     libimageio_plat_pipe \
     liblpcnr \
+    libmnl_mtk \
     libmsnr \
     libmtkcam.atmseventmgr \
     libmtkcam.eventcallback \
@@ -2493,6 +2314,13 @@ PRODUCT_PACKAGES += \
     libmtkcam_sysutils \
     libmtkcam_tuning_utils \
     libmtkcam_ulog \
+    libneuralnetworks_sl_driver_mtk_prebuilt \
+    libneuron_adapter_mgvi \
+    libneuron_runtime.5 \
+    libnir_neon_driver \
+    libpq_cust_base \
+    libpq_prot \
+    libpqparamparser \
     libstereoinfoaccessor_vsdof \
     ov13850_mipi_raw_IdxMgr \
     ov13850_mipi_raw_tuning \
@@ -2563,6 +2391,12 @@ PRODUCT_PACKAGES += \
     sp2509_mipi_raw_IdxMgr \
     sp2509_mipi_raw_tuning \
     libmtkcam_streaminfo_plugin-p1stt \
+    vendor.mediatek.hardware.apuware.apusys@2.0 \
+    vendor.mediatek.hardware.apuware.apusys@2.1 \
+    vendor.mediatek.hardware.apuware.hmp@1.0 \
+    vendor.mediatek.hardware.apuware.utils@2.0 \
+    vendor.mediatek.hardware.audio@6.1 \
+    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.camera.atms@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.0 \
     vendor.mediatek.hardware.camera.bgservice@1.1 \
@@ -2573,25 +2407,140 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.lomoeffect@1.0 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
+    vendor.mediatek.hardware.clientapi@1.0 \
+    vendor.mediatek.hardware.composer_ext@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.0 \
+    vendor.mediatek.hardware.keymaster_attestation@1.1 \
+    vendor.mediatek.hardware.lbs@1.0 \
+    vendor.mediatek.hardware.mmagent@1.0 \
+    vendor.mediatek.hardware.mmagent@1.1 \
+    vendor.mediatek.hardware.mms@1.0 \
+    vendor.mediatek.hardware.mms@1.1 \
+    vendor.mediatek.hardware.mms@1.2 \
+    vendor.mediatek.hardware.mms@1.3 \
+    vendor.mediatek.hardware.mms@1.4 \
+    vendor.mediatek.hardware.mms@1.5 \
+    vendor.mediatek.hardware.mms@1.6 \
+    vendor.mediatek.hardware.mtkradioex@2.0 \
+    vendor.mediatek.hardware.mtkradioex@3.0 \
+    vendor.mediatek.hardware.netdagent@1.0 \
+    vendor.mediatek.hardware.neuropilot.agent@1.0 \
+    vendor.mediatek.hardware.neuropilot.agent@1.1 \
+    vendor.mediatek.hardware.neuropilot.agent@1.2 \
+    vendor.mediatek.hardware.nvram@1.0 \
+    vendor.mediatek.hardware.nvram@1.1 \
+    vendor.mediatek.hardware.power@1.1 \
+    vendor.mediatek.hardware.power@2.0 \
+    vendor.mediatek.hardware.pq@2.0 \
+    vendor.mediatek.hardware.pq@2.1 \
+    vendor.mediatek.hardware.pq@2.10 \
+    vendor.mediatek.hardware.pq@2.11 \
+    vendor.mediatek.hardware.pq@2.12 \
+    vendor.mediatek.hardware.pq@2.13 \
+    vendor.mediatek.hardware.pq@2.14 \
+    vendor.mediatek.hardware.pq@2.15 \
+    vendor.mediatek.hardware.pq@2.2 \
+    vendor.mediatek.hardware.pq@2.3 \
+    vendor.mediatek.hardware.pq@2.4 \
+    vendor.mediatek.hardware.pq@2.5 \
+    vendor.mediatek.hardware.pq@2.6 \
+    vendor.mediatek.hardware.pq@2.7 \
+    vendor.mediatek.hardware.pq@2.8 \
+    vendor.mediatek.hardware.pq@2.9 \
+    android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
     android.hardware.security.sharedsecret-service.trustkernel.xml \
+    android.hardware.usb@1.2-service-mediatekv2.xml \
+    gnss-mtk.xml \
+    gnss@2.1-service.xml \
+    lbs_hidl_service@1.0.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    manifest_apuware_apusys.xml \
+    manifest_apuware_hmp.xml \
+    manifest_apuware_utils.xml \
     manifest_cameraprovider.xml \
+    manifest_hwcomposer.xml \
+    manifest_media_c2_V1_2_default.xml \
+    bip \
+    bip_ap \
+    ccci_mdinit \
+    ccci_rpcd \
+    chipinfo \
+    epdg_wod \
+    fuelgauged \
+    fuelgauged_nvram \
+    gsm0710muxd \
+    android.hardware.drm@1.4-service.widevine \
+    android.hardware.gnss-service.mediatek \
+    android.hardware.media.c2@1.2-mediatek-64b \
+    android.hardware.neuralnetworks-shim-service-mtk \
+    android.hardware.secure_element@1.2-service-mediatek \
     android.hardware.security.keymint-service.trustkernel \
+    android.hardware.usb@1.2-service-mediatekv2 \
+    android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
     camerahalserver \
+    mtkfusionrild \
+    tetheroffloadservice \
+    vendor.mediatek.hardware.keymaster_attestation@1.1-service \
+    vendor.mediatek.hardware.mmagent@1.1-service \
+    vendor.mediatek.hardware.mms@1.6-service \
+    vendor.mediatek.hardware.nvram@1.1-service \
+    vendor.mediatek.hardware.pq@2.2-service \
+    vtservice_hidl \
+    init.insmod \
+    ipsec_mon \
+    lbs_hidl_service \
+    mnld \
+    v3avpud.mt6789 \
+    mtk_agpsd \
+    netdagent \
+    nvram_daemon \
+    rcs_volte_stack \
     tee_check_keybox \
-    teed
+    teed \
+    thermal_core \
+    volte_clientapi_ua \
+    volte_imcb \
+    volte_imsm_93 \
+    volte_md_status \
+    volte_rcs_ua \
+    volte_stack \
+    volte_ua \
+    wfca \
+    wlan_assistant \
+    wmt_launcher \
+    wmt_loader
 
 PRODUCT_PACKAGES += \
+    vendor_bin_hw_android_hardware_graphics_allocator@4_0-service-mediatek \
     vendor_bin_hw_camerahalserver \
+    vendor_bin_v3avpud \
+    vendor_lib_libmtk_drvb_so \
+    vendor_lib_libvcodec_utility_so \
+    vendor_lib_libvcodec_utility_v3a_so \
+    vendor_lib_libvcodecdrv_so \
+    vendor_lib_libvcodecdrv_v3a_so \
+    vendor_lib_libvpudv3a_vcodec_so \
+    vendor_lib64_egl_libGLES_mali_so \
+    vendor_lib64_hw_audio_primary_mt6789_so \
+    vendor_lib64_hw_audio_r_submix_mt6789_so \
     vendor_lib64_hw_gatekeeper_default_so \
     vendor_lib64_hw_android_hardware_camera_provider@2_6-impl-mediatek_so \
+    vendor_lib64_hw_android_hardware_graphics_allocator@4_0-impl-mediatek_so \
+    vendor_lib64_hw_android_hardware_graphics_mapper@4_0-impl-mediatek_so \
+    vendor_lib64_hw_gralloc_common_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_atms@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_bgservice@1_1-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_ccap@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_0-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_isphal@1_1-impl_so \
     vendor_lib64_hw_vendor_mediatek_hardware_camera_lomoeffect@1_0-impl_so \
+    vendor_lib64_hw_vendor_mediatek_hardware_pq@2_15-impl_so \
+    vendor_lib64_hw_vulkan_mali_so \
+    vendor_lib64_hw_sensors_mt6789_so \
+    vendor_lib64_arm_graphics-V1-ndk_platform_so \
+    vendor_lib64_arm_graphics-V3-ndk_so \
     vendor_lib64_bf2553l_mipi_raw_IdxMgr_so \
     vendor_lib64_bf2553l_mipi_raw_tuning_so \
     vendor_lib64_bf2553lf_mipi_raw_IdxMgr_so \
@@ -3528,6 +3477,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libCamera_sp2509mipiraw_Scene_Preview_ZSD_Flash_so \
     vendor_lib64_libCamera_sp2509mipiraw_Video_1080_so \
     vendor_lib64_libCamera_sp2509mipiraw_Video_4k_so \
+    vendor_lib64_libDR_so \
     vendor_lib64_libSonyIMX230PdafLibrary_so \
     vendor_lib64_libSonyIMX230PdafLibraryWrapper_so \
     vendor_lib64_libSonyIMX338PdafLibrary_so \
@@ -3538,6 +3488,8 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libSonyIMX519PdafLibraryWrapper_so \
     vendor_lib64_libaaa_ltm_so \
     vendor_lib64_libaaa_ltmx_so \
+    vendor_lib64_libaal_cust_func_so \
+    vendor_lib64_libaalservice_so \
     vendor_lib64_libaiawb_moon_so \
     vendor_lib64_libaiawb_p1ggm_so \
     vendor_lib64_libaiawb_sun_so \
@@ -3546,6 +3498,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libaibc_tuning_p3_so \
     vendor_lib64_libaibc_tuning_p4_so \
     vendor_lib64_libaidepth_tuning_so \
+    vendor_lib64_libaiselector_so \
     vendor_lib64_libcam_afhal_so \
     vendor_lib64_libcam_chdr_so \
     vendor_lib64_libcam_feature_utils_so \
@@ -3597,6 +3550,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libcameracustom_so \
     vendor_lib64_libdip_drv_so \
     vendor_lib64_libdip_postproc_so \
+    vendor_lib64_libdpframework_so \
     vendor_lib64_libeffecthal_base_so \
     vendor_lib64_libfeature_face_so \
     vendor_lib64_libfeature_stereo_provider_so \
@@ -3607,11 +3561,14 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libfeature_lmv_so \
     vendor_lib64_libfeature_rss_so \
     vendor_lib64_libfeatureiodrv_mem_so \
+    vendor_lib64_libgpudataproducer_so \
     vendor_lib64_libimageio_so \
     vendor_lib64_libimageio_plat_drv_so \
     vendor_lib64_libimageio_plat_pipe_so \
     vendor_lib64_liblpcnr_so \
+    vendor_lib64_libmnl_mtk_so \
     vendor_lib64_libmsnr_so \
+    vendor_lib64_libmtk_drvb_so \
     vendor_lib64_libmtkcam_atmseventmgr_so \
     vendor_lib64_libmtkcam_eventcallback_so \
     vendor_lib64_libmtkcam_featurepipe_capture_so \
@@ -3675,6 +3632,13 @@ PRODUCT_PACKAGES += \
     vendor_lib64_libmtkcam_sysutils_so \
     vendor_lib64_libmtkcam_tuning_utils_so \
     vendor_lib64_libmtkcam_ulog_so \
+    vendor_lib64_libneuralnetworks_sl_driver_mtk_prebuilt_so \
+    vendor_lib64_libneuron_adapter_mgvi_so \
+    vendor_lib64_libneuron_runtime_5_so \
+    vendor_lib64_libnir_neon_driver_so \
+    vendor_lib64_libpq_cust_base_so \
+    vendor_lib64_libpq_prot_so \
+    vendor_lib64_libpqparamparser_so \
     vendor_lib64_libstereoinfoaccessor_vsdof_so \
     vendor_lib64_ov13850_mipi_raw_IdxMgr_so \
     vendor_lib64_ov13850_mipi_raw_tuning_so \
