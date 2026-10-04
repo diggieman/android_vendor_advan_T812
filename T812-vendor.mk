@@ -1204,6 +1204,7 @@ PRODUCT_PACKAGES += \
     libvpu \
     libvpu5 \
     libwapi \
+    libwifi-hal-mtk \
     libwifitest \
     libwpfa \
     libwvhidl \
