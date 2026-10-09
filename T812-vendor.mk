@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/T812/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/advan/T812/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
-    vendor/advan/T812/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ipsec.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.conf \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootCA.crt \
     vendor/advan/T812/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/DigiCertGlobalRootG2.crt \
@@ -584,15 +583,11 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.videotelephony@1.0-impl \
-    libaedv \
     libbwc \
     libgz_gp_client \
     libgz_uree \
     libhevce_sb.ca7.android \
-    libion_mtk \
-    libion_ulit \
     libipsec_ims_shr \
-    libladder \
     libmp3dec_mtk \
     libmtkcutils \
     libmtkproperty \
@@ -1123,6 +1118,8 @@ PRODUCT_PACKAGES += \
     libifcutils_mtk \
     libimagebuffer_wrapper \
     libimgsensorca \
+    libion_mtk \
+    libion_ulit \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
@@ -2490,7 +2487,6 @@ PRODUCT_PACKAGES += \
     volte_stack \
     volte_ua \
     wfca \
-    wlan_assistant \
     wmt_launcher \
     wmt_loader
 
